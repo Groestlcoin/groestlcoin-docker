@@ -3,9 +3,9 @@ FROM debian:stretch-slim
 ARG TZ=Europe/Paris
 ARG GRS_USER=grs
 ARG GRS_UID=1000
-ARG GRS_VERSION=2.18.2
+ARG GRS_VERSION=2.19.1
 ARG GRS_ARCHIVE=groestlcoin-${GRS_VERSION}-x86_64-linux-gnu.tar.gz
-ARG GRS_SUM=9ee26e1cd7967d0dc88670dbbdb99f95236ebc218f75977efb23f03ad8b74250
+ARG GRS_SUM=0646cae023a0be0821f357d33bdbf81fc05fc9a9e3e9d4e5936d5053f1a988d4
 ARG GRS_URL=https://github.com/Groestlcoin/groestlcoin/releases/download/v${GRS_VERSION}/${GRS_ARCHIVE}
 
 ENV TZ $TZ
